@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+}
+
+hr {
+  border: 1px #00adb5 dotted;
+  border-width: 15px;
+  border-bottom: none;
+  width: 150px;
+  margin: 50px auto 20px;
+  /* border-bottom: none; */
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  list-style-type: none;
+  letter-spacing: 2px;
+  padding: 26px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+
+.navbar a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.section {
+  padding: 80px 150px;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+
+.section-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.section-icon {
+  width: 100px;
+}
+
+#section-intro {
+  color: white;
+}
+
+.name {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+}
+
+.introduction-icon {
+  width: 400px;
+}
+
+#section-about {
+  background-color: #eeeeee;
+  color: #393e46;
+}
+
+.my-pic {
+  width: 250px;
+}
+
+.heading-introduction {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.7rem;
+  margin: 20px 0px 50px;
+}
+
+.heading-greeting {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  padding: 35px 50px 50px 50px;
+}
+
+.section-para {
+  line-height: 30px;
+  text-align: justify;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+/* Skill Description */
+
+#section-skills {
+  color: white;
+  /* padding: 70px 200px; */
+}
+
+.section-skills-body {
+  line-height: 50px;
+  text-align: center;
+}
+
+.skill-description {
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 50px;
+}
+
+.skill i {
+  font-size: 5rem;
+}
+
+.skill p {
+  font-size: 1.3rem;
+}
+
+#section-contact {
+  background-color: #eeeeee;
+  color: #393e46;
+}
+
+.section-contact-body {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  text-align: left;
+}
+
+.training-icon {
+  width: 300px;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.contact-paragraph {
+  font-size: 1.3rem;
+}
+
+.contact-social-media {
+  /* text-align: right; */
+}
