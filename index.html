@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eli | CV</title>
     <link rel="stylesheet" href="rsc/css/devicon/devicon.min.css" />
+    <link rel="stylesheet" href="./rsc/fontawesome/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="./rsc/fontawesome/css/fontawesome.min.css" /> -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./rsc/fontawesome/js/all.min.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -125,6 +129,7 @@
       </div>
       <hr />
     </div>
+    <!--  section-skills -->
     <div class="section" id="section-contact">
       <div class="section-heading">
         <div class="heading-greeting">
@@ -154,23 +159,54 @@
             action="mailto:elijahleis10@gmail.com"
             method="post"
             enctype="text/plain"
+            class="form"
           >
-            <input type="text" name="yourName" value="" placeholder="Name..." />
+            <input
+              type="text"
+              name="yourName"
+              value=""
+              placeholder="Name..."
+              class="form-control"
+            />
             <br />
-            <input type="email" name="yourEmail" placeholder="Email..." /><br />
+            <input
+              type="email"
+              name="yourEmail"
+              placeholder="Email..."
+              class="form-control"
+            /><br />
             <textarea
               name="yourMessage"
-              rows="10"
-              cols="30"
+              rows="5"
               placeholder="Message"
+              class="form-control"
             ></textarea>
             <br />
-            <input type="submit" name="" />
+            <input type="submit" name="" class="btn-submit" />
           </form>
         </div>
         <div class="contact-social-media">
-          <h2>hello</h2>
+          <div class="contact-social-media-heading">
+            <p class="contact-paragraph">
+              Want me to contact in social media? No problem! I got you! 😉
+            </p>
+            <p class="contact-paragraph">
+              Just contact click on the icons below to message me via social
+              media!
+            </p>
+          </div>
+          <div class="contact-social-media-icons">
+            <a href=""><i class="icons fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="icons fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="icons fa-brands fa-instagram-square"></i></a>
+          </div>
         </div>
+      </div>
+      <hr />
+    </div>
+    <div class="section" id="section-footer">
+      <div class="footer-body">
+        <p>© 2022 All Rights Reserved. Elijah Leis</p>
       </div>
     </div>
   </body>
